@@ -1,0 +1,92 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/ExportedObj/
+/.utmp/
+
+# Unity Version Control / Plastic SCM local workspace files
+/.plastic/
+/ignore.conf
+/[Aa]ssets/[Pp]lugins/[Pp]lasticSCM*
+
+# Unity import/export archives and local generated assets
+*.unitypackage
+~UnityDirMonSyncFile~*
+*.private
+*.private.meta
+*.private.[0-9]*
+*.private.[0-9]*.meta
+
+# Unity Asset Store and generated addressable content
+/[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools*
+**/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+**/[Aa]ssets/[Ss]treaming[Aa]ssets/aa.meta
+**/[Aa]ssets/[Ss]treaming[Aa]ssets/*/aa/*
+
+# Unity generated IDE/project files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# IDE/editor local state
+/.vs/
+/.vscode/
+/.idea/
+/.consulo/
+/.gradle/
+
+# Python backend local state and secrets
+/Backend/.env
+/Backend/venv/
+/Backend/.venv/
+/Backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Generated backend/root audio test output
+/test_interviewer_voice.wav
+/Backend/*.wav
+/Backend/*.mp3
+
+# Build outputs
+*.apk
+*.aab
+*.app
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

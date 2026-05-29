@@ -1,0 +1,178 @@
+Directional Light
+Global Volume
+XR Interaction Manager
+XR Origin (XR Rig)
+    Camera Offset
+        Main Camera
+        Gaze Interactor
+        Gaze Stabilized
+            Gaze Stabilized Attach
+        Left Controller
+            Poke Interactor
+                Poke Point
+                    Pinch_Pointer_LOD0
+                Poke Point Affordances
+                    Poke
+                    NearFar
+            Near-Far Interactor
+                LineVisual
+            Teleport Interactor
+            Left Controller Visual
+                UniversalController
+                    Bumper
+                    Button_Home
+                    Controller_Base
+                    TouchPad
+                    Trigger
+                    XRController_Thumbstick_Buttons
+                        Button_A
+                        Button_B
+                        ThumbStick
+                        ThumbStick_Base
+        Left Controller Teleport Stabilized Origin
+            Left Controller Stabilized Attach
+        Right Controller
+            Poke Interactor
+                Poke Point
+                    Pinch_Pointer_LOD0
+                Poke Point Affordances
+                    Poke
+                    NearFar
+            Near-Far Interactor
+                LineVisual
+            Teleport Interactor
+            Right Controller Visual
+                UniversalController
+                    Bumper
+                    Button_Home
+                    Controller_Base
+                    TouchPad
+                    Trigger
+                    XRController_Thumbstick_Buttons
+                        Button_A
+                        Button_B
+                        ThumbStick
+                        ThumbStick_Base
+        Right Controller Teleport Stabilized Origin
+            Right Controller Stabilized Attach
+    Locomotion
+        Turn
+        Move
+        Grab Move
+        Teleportation
+        Climb
+            Climb Teleport
+Room
+    wall_back
+    wall_front
+    floor
+    wall_left
+    Door
+    wall_right
+    Windows
+    DeskBase 
+        DeskLamp
+    chair_candidate
+    chair_interviewer
+    Closet
+GameManager
+SetupPanel
+    PanelBackground
+    TitleText
+    StatusText
+    AIButton
+        Text (TMP)
+    DataScienceButton
+        Text (TMP)
+    SoftwareButton
+        Text (TMP)
+    EasyButton
+        Text (TMP)
+    MediumButton
+        Text (TMP)
+    HardButton
+        Text (TMP)
+    FriendlyButton
+        Text (TMP)
+    NormalButton
+        Text (TMP)
+    UnfriendlyButton
+        Text (TMP)
+    StartInterviewButton
+        Text (TMP)
+EventSystem
+QuestionPanel
+    QuestionBackground
+        QuestionText
+        AnswerInputField
+            Text Area
+                Placeholder
+                Text
+    SubmitAnswerButton
+        Text (TMP)
+    GoodAnswerButton
+        Text (TMP)
+    WeakAnswerButton
+        Text (TMP)
+    ConfusedAnswerButton
+        Text (TMP)
+    RecordAnswerButton
+        Text (TMP)
+    StopRecordingButton
+        Text (TMP)
+    VoiceStatusText
+    RestartInterviewButton
+        Text (TMP)
+    PauseResumeButton
+        Text (TMP)
+    EndInterviewButton
+        Text (TMP)
+VoiceAnswerRecorder
+Interviewer
+    genSuit_LOD0
+    genSuit_LOD1
+    genSuit_LOD2
+    genSuit_Reference
+        genSuit_Hips
+            genSuit_LeftUpLeg
+                genSuit_LeftLeg
+                    genSuit_LeftFoot
+                        genSuit_LeftToeBase
+            genSuit_RightUpLeg
+                genSuit_RightLeg
+                    genSuit_RightFoot
+                        genSuit_RightToeBase
+            genSuit_Spine
+                genSuit_Spine1
+                    genSuit_LeftShoulder
+                        genSuit_LeftArm
+                            genSuit_LeftForeArm
+                                genSuit_LeftHand
+                                    genSuit_AttachHandLeft
+                                    genSuit_LeftHandIndex1
+                                        genSuit_LeftHandIndex2
+                                            genSuit_LeftHandIndex3
+                                    genSuit_LeftHandMiddle1
+                                        genSuit_LeftHandMiddle2
+                                            genSuit_LeftHandMiddle3
+                                    genSuit_LeftHandThumb1
+                                        genSuit_LeftHandThumb2
+                                            genSuit_LeftHandThumb3
+                    genSuit_Neck
+                        genSuit_Head
+                    genSuit_RightShoulder
+                        genSuit_RightArm
+                            genSuit_RightForeArm
+                                genSuit_RightHand
+                                    genSuit_AttachHandRight
+                                    genSuit_RightHandIndex1
+                                        genSuit_RightHandIndex2
+                                            genSuit_RightHandIndex3
+                                    genSuit_RightHandMiddle1
+                                        genSuit_RightHandMiddle2
+                                            genSuit_RightHandMiddle3
+                                    genSuit_RightHandThumb1
+                                        genSuit_RightHandThumb2
+                                            genSuit_RightHandThumb3
+TextToSpeechManager
+BackendConfig

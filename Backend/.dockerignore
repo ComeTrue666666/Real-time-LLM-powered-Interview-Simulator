@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+debug_answer.wav
+debug_interviewer_voice.mp3
+venv/
+.venv/
