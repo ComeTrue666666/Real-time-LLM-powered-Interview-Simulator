@@ -1,6 +1,6 @@
 # Real-time LLM-powered Interview Simulator
 <p align="center">
-  <img width="800" height="600" alt="Demo Video" src="https://github.com/user-attachments/assets/a27e0f86-d797-49fd-ae69-6513542b705b" />
+  <video src="Assets/demo.gif" width="750" controls autoplay loop muted></video>
 </p>
 A Unity VR interview simulator that lets a candidate practice a spoken technical interview with an LLM-powered interviewer. The Unity client presents the VR scene and interview UI, records the candidate's answer, sends audio to a Python backend for transcription, asks an LLM for the next interviewer question, and plays the interviewer response back through text-to-speech.
 
